@@ -16,6 +16,8 @@ module.exports = (webpackConfigEnv, argv) => {
   });
 
   return merge(defaultConfig, {
-    
+    output: {
+  path: path.resolve(__dirname, 'public'), // Change 'dist' to 'public' 
+}
   });
 };
