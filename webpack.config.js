@@ -2,6 +2,7 @@ const { merge } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-react");
 const React = require("react");
 const ReactDOM = require("react-dom");
+const path = require("path")
 
 module.exports = (webpackConfigEnv, argv) => {
 
